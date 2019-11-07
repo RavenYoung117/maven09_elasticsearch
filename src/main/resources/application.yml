@@ -1,0 +1,22 @@
+#spring.data.elasticsearch.host=192.168.32.66
+#spring.data.elasticsearch.port=9200
+#spring.data.elasticsearch.connectTimeOut=1000
+#spring.data.elasticsearch.socketTimeOut=30000
+#spring.data.elasticsearch.connectionRequestTimeOut=500
+#spring.data.elasticsearch.maxConnectNum=100
+#spring.data.elasticsearch.maxConnectPerRoute=100
+
+#logging.path=D:/logs/cache
+#logging.path=logs/cache
+logging:
+    path: logs/cache
+spring:
+    data:
+        elasticsearch:
+            connectTimeOut: 1000
+            connectionRequestTimeOut: 500
+            host: 192.168.32.66
+            maxConnectNum: 100
+            maxConnectPerRoute: 100
+            port: 9200
+            socketTimeOut: 30000

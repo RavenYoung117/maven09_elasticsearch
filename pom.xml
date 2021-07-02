@@ -62,7 +62,7 @@
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
             <!--版本保持一致，不然缺类-->
-            <version>6.5.0</version>
+            <version>6.8.15</version>
         </dependency>
 
     </dependencies>
